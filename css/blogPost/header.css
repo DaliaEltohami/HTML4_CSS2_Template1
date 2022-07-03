@@ -1,0 +1,8 @@
+/* 3.0 Header Section */
+.header{
+    background-color: #fff;
+}
+
+.header .nav > li > a{
+    color: black;
+}

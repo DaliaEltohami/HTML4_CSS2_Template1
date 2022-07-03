@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog-Post-Page">
+    <meta name="keywords" content="blog, post, page" >
+    <title>Blog Post</title>
+
+     <!-- Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+     <!-- Css Files -->
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/homePage/header.css">
+     <link rel="stylesheet" href="css/blogPost/header.css">
+     <link rel="stylesheet" href="css/blogPost/breadcrumb.css">
+     <link rel="stylesheet" href="css/blogPost/blog-post.css">
+     <link rel="stylesheet" href="css/blogPost/author-reply.css">
+     <link rel="stylesheet" href="css/blogPost/comments.css">
+     <link rel="stylesheet" href="css/blogPost/reply-form.css">
+     <link rel="stylesheet" href="css/blogPost/right-side-menu.css">
+     <link rel="stylesheet" href="css/blogPost/search-widget.css">
+     <link rel="stylesheet" href="css/blogPost/category-widget.css">
+     <link rel="stylesheet" href="css/blogPost/popular-post-widget.css">
+     <link rel="stylesheet" href="css/blogPost/tags-widget.css">
+     <link rel="stylesheet" href="css/utils.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header  -->
+    <div class="header border-bottom-gray">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.webp" alt="Logo" draggable="false">
+                </div>
+                <ul class="nav">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Prices</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li class="dropdown">
+                        <a href="#">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog.html">Blog Post</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="clear"></div>
+                <!-- <div class="clear"></div> -->
+            </div> <!-- ./header-content -->
+        </div> <!-- ./container -->
+    </div> <!-- ./header -->
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb bg-gray border-bottom-gray ">
+        <div class="container">
+            <div class="breadcrumb-content overflow-hidden">
+                <h2 class="breadcrumb-title capitalize">blog page</h2>
+                <ul class="breadcrumb-list float-right">
+                    <li class="breadcrumb-list-item"><a class="capitalize" href="index.html">home</a></li>
+                    <li class="breadcrumb-list-item"><a class="capitalize" href="blog.html">blog</a></li>
+                    <li class="breadcrumb-list-item capitalize">single post</li>
+                </ul>
+            </div>
+        </div> <!-- ./container -->
+    </div> <!-- ./breadcrumb -->
+
+    <!-- Blog Section -->
+    <div class="blog pd-y">
+        <div class="container">
+            <div class="blog-content overflow-hidden">
+                <div class="blog-post float-left">
+                    <div class="post-image mb-10">
+                        <img src="images/blog/blog1.webp" alt="blog post image">
+                    </div> <!-- ./post-image -->
+                    <ul class="blog-post-icons-list mb-20">
+                        <li class="blog-post-icons-item">
+                            <i class="fa fa-user"></i>
+                            <span>John deo</span>
+                        </li>
+                        <li class="blog-post-icons-item">
+                            <i class="fa fa-clock-o"></i>
+                            <span>18 Oct</span>
+                        </li>
+                        <li class="blog-post-icons-item">
+                            <i class="fa fa-comments"></i>
+                            <span>57</span>
+                        </li>
+                    </ul> <!-- ./blog-post-icons-list -->
+                    <h2 class="blog-post-title mb-5">Morbi mattis felis at nunc. Duis viverra</h2> <!-- ./blog-post-title -->
+                    <p class="blog-post-desc mb-20">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p> <!-- ./blog-post-desc -->
+                    <div class="tags">
+                        <span class="tags-title capitalize">tags : </span>
+                        <a href="#" class="tag-link bg-gray">
+                            <i class="fa fa-tag"></i>
+                            <span class="capitalize">web</span>
+                        </a>
+                        <a href="#" class="tag-link bg-gray">
+                            <i class="fa fa-tag"></i>
+                            <span class="capitalize">design</span>
+                        </a>
+                        <a href="#" class="tag-link bg-gray">
+                            <i class="fa fa-tag"></i>
+                            <span class="capitalize">marketing</span>
+                        </a>
+                        <a href="#" class="tag-link bg-gray">
+                            <i class="fa fa-tag"></i>
+                            <span class="capitalize">development</span>
+                        </a>
+                        <a href="#" class="tag-link bg-gray">
+                            <i class="fa fa-tag"></i>
+                            <span class="capitalize">branding</span>
+                        </a>
+                        <a href="#" class="tag-link bg-gray">
+                            <i class="fa fa-tag"></i>
+                            <span class="capitalize">photography</span>
+                        </a>
+                    </div> <!-- ./tags -->
+
+                    <!-- Author Reply Section -->
+
+                    <div class="author-replay overflow-hidden border-gray">
+                        <div class="author-replay-image float-left">
+                            <img src="images/team/team1.webp" alt="">
+                        </div> <!-- ./author-replay-image -->
+                        <div class="author-replay-body float-left">
+                            <div class="author-replay-heading border-bottom-gray overflow-hidden mb-25">
+                                <h2 class="uppercase float-left">john deo</h2>
+                                <div class="author-social float-right">
+                                    <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+                                    <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fa fa-google-plus"></i></a>
+                                </div> <!-- ./author-social -->
+                            </div> <!-- ./author-replay-heading -->
+                            <p class="author-replay-desc ">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+                        </div> <!-- ./author-replay-body -->
+                    </div> <!-- author-replay -->
+
+                    <!-- Comments Section -->
+
+                    <div class="comments my-30">
+
+                        <h2 class="section-heading capitalize mb-20">(13) comments</h2> <!-- ./section-heading -->
+
+                        <div class="comment overflow-hidden border-gray">
+                            <div class="comment-image float-left">
+                                <img src="images/team/team2.webp" alt="user-image">
+                            </div> <!-- ./comment-image -->
+                            <div class="comment-body float-left">
+                                <div class="comment-body-heading ">
+                                    <h3 class="comment-heading-title uppercase float-left">john deo</h3> <!-- ./comment-heading-title -->
+                                    <span class="comment-time uppercase">2 min ago</span> 
+                                    <!-- ./comment-time -->
+                                    <a href="#" class="replay-link float-right">
+                                        <span class="uppercase">replay</span>
+                                        <i class="fa fa-reply"></i>
+                                    </a> <!-- ./replay-link -->
+                                </div> <!-- ./comment-body-heading -->
+                                <div class="comment-body-desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</div> <!-- ./comment-body-desc -->
+                            </div> <!--  ./comment-body -->
+                        </div> <!-- ./comment -->
+
+                        <div class="comment overflow-hidden border-gray">
+                            <div class="comment-image float-left">
+                                <img src="images/team/team1.webp" alt="user-image">
+                            </div> <!-- ./comment-image -->
+                            <div class="comment-body float-left">
+                                <div class="comment-body-heading ">
+                                    <h3 class="comment-heading-title uppercase float-left">john deo</h3> <!-- ./comment-heading-title -->
+                                    <span class="comment-time uppercase">2 min ago</span> 
+                                    <!-- ./comment-time -->
+                                    <a href="#" class="replay-link float-right">
+                                        <span class="uppercase">replay</span>
+                                        <i class="fa fa-reply"></i>
+                                    </a> <!-- ./replay-link -->
+                                </div> <!-- ./comment-body-heading -->
+                                <div class="comment-body-desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</div> <!-- ./comment-body-desc -->
+                            </div> <!--  ./comment-body -->
+
+                            <div class="sub-comments">
+                                <div class="comment active overflow-hidden border-gray">
+                                    <div class="comment-image float-left">
+                                        <img src="images/team/team1.webp" alt="user-image">
+                                    </div> <!-- ./comment-image -->
+                                    <div class="comment-body float-left">
+                                        <div class="comment-body-heading ">
+                                            <h3 class="comment-heading-title uppercase float-left">john deo</h3> <!-- ./comment-heading-title -->
+                                            <span class="comment-time uppercase">2 min ago</span> 
+                                            <!-- ./comment-time -->
+                                            <a href="#" class="replay-link float-right">
+                                                <span class="uppercase">replay</span>
+                                                <i class="fa fa-reply"></i>
+                                            </a> <!-- ./replay-link -->
+                                        </div> <!-- ./comment-body-heading -->
+                                        <div class="comment-body-desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</div> <!-- ./comment-body-desc -->
+                                    </div> <!--  ./comment-body -->
+                                </div> <!-- ./comment -->
+    
+                                <div class="comment overflow-hidden border-gray">
+                                    <div class="comment-image float-left">
+                                        <img src="images/team/team3.webp" alt="user-image">
+                                    </div> <!-- ./comment-image -->
+                                    <div class="comment-body float-left">
+                                        <div class="comment-body-heading ">
+                                            <h3 class="comment-heading-title uppercase float-left">john deo</h3> <!-- ./comment-heading-title -->
+                                            <span class="comment-time uppercase">2 min ago</span> 
+                                            <!-- ./comment-time -->
+                                            <a href="#" class="replay-link float-right">
+                                                <span class="uppercase">replay</span>
+                                                <i class="fa fa-reply"></i>
+                                            </a> <!-- ./replay-link -->
+                                        </div> <!-- ./comment-body-heading -->
+                                        <div class="comment-body-desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</div> <!-- ./comment-body-desc -->
+                                    </div> <!--  ./comment-body -->
+                                </div> <!-- ./comment -->
+                            </div> <!-- ./sub-comments -->
+
+                        </div> <!-- ./comment -->
+
+                        <div class="comment overflow-hidden border-gray">
+                            <div class="comment-image float-left">
+                                <img src="images/team/team3.webp" alt="user-image">
+                            </div> <!-- ./comment-image -->
+                            <div class="comment-body float-left">
+                                <div class="comment-body-heading ">
+                                    <h3 class="comment-heading-title uppercase float-left">john deo</h3> <!-- ./comment-heading-title -->
+                                    <span class="comment-time uppercase">2 min ago</span> 
+                                    <!-- ./comment-time -->
+                                    <a href="#" class="replay-link float-right">
+                                        <span class="uppercase">replay</span>
+                                        <i class="fa fa-reply"></i>
+                                    </a> <!-- ./replay-link -->
+                                </div> <!-- ./comment-body-heading -->
+                                <div class="comment-body-desc">Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</div> <!-- ./comment-body-desc -->
+                            </div> <!--  ./comment-body -->
+                        </div> <!-- ./comment -->
+                    </div> <!-- comments -->
+
+                    <!-- Reply Form Section -->
+
+                    <div class="reply-form my-40">
+                        <h2 class="section-heading capitalize mb-20">leave a reply</h2> <!-- ./section-heading -->
+
+                        <div class="form">
+
+                            <div class="form-first-line overflow-hidden">
+                                <input class="input" type="text" placeholder="Name">
+                                <input class="input float-right" type="email" placeholder="Email">
+                            </div> <!-- ./form-first-line -->
+
+                            <textarea class="input" name="textarea1" placeholder="Add Your Comment"></textarea>
+
+                            <button class="submit capitalize">submit</button>
+                        </div> <!-- ./form -->
+
+
+                    </div> <!-- ./reply-form -->
+
+
+
+                </div> <!-- ./blog-post -->
+
+
+                <div class="right-side-menu float-left">
+
+                    <!-- Search Form -->
+
+                    <div class="widget">
+                        <div class="search-form">
+                            <input class="input search-input" type="text" placeholder="Search" >
+                            <button class="btn-search"><i class="fa fa-search"></i></button>
+                        </div> <!-- ./search-form -->
+                    </div> <!-- ./widget -->
+
+                    <!-- Category Section -->
+
+                    <div class="widget">
+                        <div class="category">
+                            <h2 class="section-heading capitalize mb-20">category</h2> <!-- ./section-heading -->
+
+                            <div class="category-items">
+
+                                <div class="category-item">
+                                    <span class="category-name capitalize">web development</span>
+                                    <span class="category-count float-right">(17)</span>
+                                </div> <!-- ./category-item -->
+
+                                <div class="category-item">
+                                    <span class="category-name capitalize">branding</span>
+                                    <span class="category-count float-right">(4)</span>
+                                </div> <!-- ./category-item -->
+
+                                <div class="category-item">
+                                    <span class="category-name capitalize">web design</span>
+                                    <span class="category-count float-right">(10)</span>
+                                </div> <!-- ./category-item -->
+
+                                <div class="category-item">
+                                    <span class="category-name capitalize">photography</span>
+                                    <span class="category-count float-right">(9)</span>
+                                </div> <!-- ./category-item -->
+
+                                <div class="category-item">
+                                    <span class="category-name capitalize">marketing</span>
+                                    <span class="category-count float-right">(19)</span>
+                                </div> <!-- ./category-item -->
+
+                            </div> <!-- ./category-items -->
+    
+                        </div> <!-- ./category -->
+                    </div> <!-- ./widget -->
+
+                    <!-- Popular Posts Section -->
+
+                    <div class="widget">
+                        <div class="popular-posts">
+
+                            <h2 class="section-heading capitalize mb-20">popular posts</h2> <!-- ./section-heading -->
+
+                            <div class="posts-thumb">
+
+                                <div class="post-thumb overflow-hidden mb-20">
+                                    <div class="post-thumb-image float-left">
+                                        <a href="#" class="post-thumb-link"><img src="images/blog/blog1.webp" alt=""></a>
+                                    </div> <!-- ./post-thumb-image -->
+                                    <div class="post-thumb-desc float-left">
+                                        <a href="#" class="post-thumb-link"><p class="post-thumb-title capitalize">post title goes here</p></a>
+                                        <span class="post-thumb-details capitalize">oct 17, 2022</span>
+                                    </div> <!-- ./post-thumb-desc -->
+                                </div> <!-- ./post-thumb -->
+                                <div class="post-thumb overflow-hidden mb-20">
+                                    <div class="post-thumb-image float-left">
+                                        <a href="#" class="post-thumb-link"><img src="images/blog/blog3.webp" alt=""></a>
+                                    </div> <!-- ./post-thumb-image -->
+                                    <div class="post-thumb-desc float-left">
+                                        <a href="#" class="post-thumb-link"><p class="post-thumb-title capitalize">post title goes here</p></a>
+                                        <span class="post-thumb-details capitalize">oct 17, 2022</span>
+                                    </div> <!-- ./post-thumb-desc -->
+                                </div> <!-- ./post-thumb -->
+                                <div class="post-thumb overflow-hidden mb-20">
+                                    <div class="post-thumb-image float-left">
+                                        <a href="#" class="post-thumb-link"><img src="images/blog/blog2.webp" alt=""></a>
+                                    </div> <!-- ./post-thumb-image -->
+                                    <div class="post-thumb-desc float-left">
+                                        <a href="#" class="post-thumb-link"><p class="post-thumb-title capitalize">post title goes here</p></a>
+                                        <span class="post-thumb-details capitalize">oct 17, 2022</span>
+                                    </div> <!-- ./post-thumb-desc -->
+                                </div> <!-- ./post-thumb -->
+                                
+                            </div> <!-- ./posts-thumb -->
+
+                        </div> <!-- ./popular-posts -->
+                    </div> <!-- ./widget -->
+
+                    <!-- Tags Widget Section -->
+
+                    <div class="widget tags-widget">
+                        <h2 class="section-heading uppercase mb-20">tags</h2> <!-- ./section-heading -->
+
+                        <a href="#" class="tags-widget-item capitalize tag-link bg-gray">web</a>
+                        <a href="#" class="tags-widget-item capitalize tag-link bg-gray">design</a>
+                        <a href="#" class="tags-widget-item capitalize tag-link bg-gray">marketing</a>
+                        <a href="#" class="tags-widget-item capitalize tag-link bg-gray">development</a>
+                        <a href="#" class="tags-widget-item capitalize tag-link bg-gray">photography</a>
+                        <a href="#" class="tags-widget-item capitalize tag-link bg-gray">branding</a>
+                        <a href="#" class="tags-widget-item tag-link bg-gray">graphic</a>
+                    </div>
+
+                </div> <!-- ./right-side-menu -->
+            </div> <!-- ./blog-content -->
+        </div> <!-- ./container -->
+    </div> <!-- ./blog -->
+
+    
+
+</body>
+</html>

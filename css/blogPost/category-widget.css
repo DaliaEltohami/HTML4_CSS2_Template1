@@ -1,0 +1,14 @@
+/* Category Widget */
+
+.category-items:last-child{
+    border-bottom: 1px solid #eee;
+}
+
+.category-item{
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.category-count {
+    color: var(--mainColor);
+}

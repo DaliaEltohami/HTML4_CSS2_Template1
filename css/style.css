@@ -1,0 +1,163 @@
+/* 
+    1- common styles
+    2- general styles
+    3- sections styles
+        3.0 Header section
+        3.1 Home Section
+        3.2 About Section
+        3.3 Portfolio Section
+        3.4 Services Section
+        3.5 Prices Section
+        3.6 Team Section
+        3.7 Blog page
+        3.8 Contact Section
+        3.9 Footer Section 
+
+*/
+
+/*  2- Common Styles */
+/* 
+    * Overlay
+    * opacity hover
+    * section hover
+    * section padding
+    * hover effect1 ( left to rigth)
+    * hover effect2 (top to bottom)
+ */
+
+
+ /* 1- Common Styles */
+
+ .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hover-opacity {
+    transition: opacity 0.5s;
+}
+
+.hover-opacity:hover{
+    opacity: 0.8;
+}
+
+.ltr-effect, .ttp-effect{
+    position: relative;
+}
+
+.ltr-effect::after, .ttp-effect::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    
+    /* opacity: 0.8; */
+    z-index: -1;
+}
+
+.ltr-effect::after{
+    width: 0;
+    height: 100%;
+    transition: width .5s;
+}
+
+.ttp-effect::after{
+    width: 100%;
+    height: 0;
+    transition: height .5s;
+}
+
+.ltr-effect:hover::after{
+    width: 100%;
+}
+
+.ttp-effect:hover::after{
+    height: 100%;
+}
+
+ /* 2- General CSS Styles */
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --mainColor:#6195ff;
+    --textColor:#868F9B;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container{
+    width: 80%;
+    /* height: 20px; */
+    /* background-color: red; */
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: montserrat, sans-serif
+}
+
+button{
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.pd-y{
+    padding: 120px 0;
+}
+
+.pd-y-60{
+    padding: 60px 0;
+}
+
+.mg{
+    margin: 0 5%;
+}
+
+.mg-2{
+    margin: 0 2%;
+}
+
+
+.section-header{
+     text-align: center;
+}
+
+.section-header .section-header-title{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.section-header .line{
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: var(--mainColor);
+    margin: 0 auto 70px auto;
+}
+
+/*  3- Sections Styles */

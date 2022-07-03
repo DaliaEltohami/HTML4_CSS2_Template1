@@ -1,0 +1,36 @@
+/* Services Section */
+
+.services-content{
+    overflow: hidden;
+}
+
+.services-item{
+    position: relative;
+    width: 30%;
+    border: 1px solid #e8e8e8;
+    padding: 25px 5px 35px 70px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.services-content i{
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    color: var(--mainColor);
+}
+
+.services-item-title{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color .5s;
+}
+
+.services-item-desc{
+    color: #999;
+    line-height: 1.5;
+}
+
+.services-item:hover .services-item-title{
+    color: #fff;
+}

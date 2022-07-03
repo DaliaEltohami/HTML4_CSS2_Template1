@@ -1,0 +1,22 @@
+/* Reply Form Section */
+
+.reply-form textarea{
+    min-height: 80px;
+}
+
+.form-first-line .input{
+    width: 48%;
+}
+
+
+.reply-form .submit{
+    display: block;
+    color: #fff;
+    background-color: var(--mainColor);
+    width: 110px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+

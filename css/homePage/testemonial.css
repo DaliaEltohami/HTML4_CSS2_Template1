@@ -1,0 +1,53 @@
+/* Testemonial Section */
+
+.testemonial{
+    position: relative;
+    height: 400px;
+    padding: 120px 0;
+}
+ 
+.testemonial .bg-image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../images/background/background3.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.testemonial-content{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+.testemonial-toplayer {
+    padding: 10px 2px 25px 90px;
+    position: relative;
+}
+.testemonial-item{
+    float: left;
+    width: 50%;
+}
+
+.testemonial-toplayer img {
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+}
+
+span.testemonial-job {
+    display: block;
+    color: var(--mainColor);
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+p.testemonial-desc {
+    position: relative;
+    line-height: 1.5;
+    font-size: 17px;
+}

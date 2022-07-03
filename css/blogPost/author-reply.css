@@ -1,0 +1,41 @@
+/* Author Reply Section */
+
+.author-replay{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.author-replay-image{
+    width: 20%;
+}
+
+.author-replay-image img{
+    width: 100%;
+}
+
+.author-replay-body{
+    width: 80%;
+    padding-left: 10px;
+}
+
+.author-replay-heading{
+    padding-bottom: 20px;
+}
+
+.social-icon{
+    display: inline-block;
+    background-color: var(--mainColor);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.social-icon i{
+    color: #fff;
+    line-height: 25px;
+}
+
+.author-replay-desc{
+    color: var(--textColor);
+    line-height: 1.6;
+}
